@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    color: #EEEEEE;
+    font-family: "Lato", sans-serif;
+}
+
+.container{
+    display: flex; 
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 235px;
+    /* padding-top: px; */
+    padding-right: 10px;
+    height: 100%;
+    background-color: #252831;
+}
+
+.small-stat{
+    display: flex; 
+    margin: 7px 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #464674; /*light mode #888888 */
+    height: 150px;
+    width: 100%;
+    background-color: #33334C; /* Light Mode: #FDFDFD */
+}
+
+.small-stat-icon{
+    float: left;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+
+.small-stat-details{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.medium-stat1{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #464674;
+    height: 300px;
+    width: 50%;
+    background-color: #33334C;
+}
+
+.medium-stat2{
+    margin: 7px 7px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #464674;
+    height: 300px;
+    width: 95%;
+    background-color: #33334C; /* Light Mode: #FDFDFD */
+}
+
+.large-stat{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #464674;
+    height: 600px;
+    width: 100%;
+    background-color: #33334C;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin-top: 30px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
